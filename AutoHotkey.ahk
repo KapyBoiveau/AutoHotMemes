@@ -53,4 +53,5 @@ CopyToClip(emoteName){
 	emotePath := ".\emotes\" . emoteName . ".png"
 	RunWait nircmd clipboard copyimage %emotePath%
 	Send ^v
+	RunWait nircmd clipboard clear
 }
