@@ -45,6 +45,10 @@ CopyToClip("KEKW") ; https://i.imgur.com/eYFtqGI.png
 CopyToClip("EZ") ; https://i.imgur.com/6jSbOhP.png
 
 
+::!lul:: ; LUL
+CopyToClip("LUL") ; https://static-cdn.jtvnw.net/emoticons/v2/425618/default/dark/2.0
+
+
 CopyToClip(emoteName){
 	emotePath := ".\emotes\" . emoteName . ".png"
 	RunWait nircmd clipboard copyimage %emotePath%
